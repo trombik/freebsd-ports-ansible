@@ -55,7 +55,8 @@ PLIST_FILES?=	man/man1/ansible-config.1.gz \
 		man/man1/ansible-playbook.1.gz \
 		man/man1/ansible-pull.1.gz \
 		man/man1/ansible-vault.1.gz \
-		man/man1/ansible.1.gz
+		man/man1/ansible.1.gz \
+		%%PYTHON_SITELIBDIR%%/ansible_test/_data/injector/ansible-inventory
 
 PORTEXAMPLES=	ansible.cfg hosts
 
