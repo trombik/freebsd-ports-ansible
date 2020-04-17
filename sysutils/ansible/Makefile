@@ -39,7 +39,8 @@ CONFLICTS?=	ansible1-* \
 EXTRA_PATCHES?=
 
 NO_ARCH=	yes
-USES?=		cpe python
+USES?=		cpe python shebangfix
+SHEBANG_GLOB=	*.py
 USE_PYTHON=	distutils autoplist concurrent
 CPE_VENDOR=	ansibleworks
 
